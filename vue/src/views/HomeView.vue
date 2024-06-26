@@ -6,7 +6,7 @@
     </header>
 
   <div class="subheader">
-    <h2>Full Stack Software Developer</h2>
+    <h2>Software&nbsp;Developer</h2>
     <div class="container" id="contact">
       <div class="subcontainer">
         <a href="https://www.linkedin.com/in/will-barnard-dev/" target="_blank">🔗&nbsp;LinkedIn</a>
@@ -89,7 +89,7 @@ h3 {
   font-size: 6vw;
 }
 .subheader {
-  font-size: 1em;
+  font-size: 1.2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -147,6 +147,9 @@ h3 {
   }
   .subheader h2 {
     font-size: 4vw;
+  }
+  .subheader a {
+    font-size: 2em;
   }
   #contact {
     width: 50vw;
