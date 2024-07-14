@@ -20,6 +20,7 @@
     </div>
     
     <AboutMe />
+    
   </div>
   
 
