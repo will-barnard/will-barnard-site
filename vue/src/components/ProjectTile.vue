@@ -41,11 +41,6 @@ export default {
         return {
             showDetail: false
         }
-    },
-    methods: {
-        github() {
-            
-        }
     }
 }
 </script>
@@ -61,12 +56,20 @@ export default {
         flex-direction: column;
         justify-content: start;
     }
+    .major {
+        background-color: white;
+    }
+    .minor {
+        background-color: white;
+        
+    }
     .image {
         width: 100%;
     }
     .image img {
         width: 100%;
         object-fit: contain;
+        border-radius: 10px;
 
     }
     .tags{

@@ -27,13 +27,13 @@
   </div>
   <main>
     <div>
-      <h3>Major Projects</h3>
+      <h1>Major Projects</h1>
       <div class="tile-container">
         <ProjectTile v-for="project in majorProjects" :key="project.id" :project="project" class="tile"/>
       </div>
     </div>
     <div>
-      <h3>Minor Projects</h3>
+      <h1>Minor Projects</h1>
       <div class="tile-container">
         <ProjectTile v-for="project in minorProjects" :key="project.id" :project="project" class="tile"/>
       </div>

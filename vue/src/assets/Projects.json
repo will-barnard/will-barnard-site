@@ -50,8 +50,32 @@
         }
     ],
     "minorProjects": [
-        {   
+        {
             "id": 0,
+            "name": "Chess Archive",
+            "repo": "chess-opening-archive",
+            "img": "/img/chess.jpeg",
+            "subtitle": "Desktop and web study app for learning chess openings",
+            "tags": ["Java", "Vue", "Electron", "Node.js"],
+            "link": "",
+            "displayLink": "",
+            "githubUrl": "https://github.com/will-barnard/chess-opening-archive",
+            "description": ""
+        },
+        {
+            "id": 1,
+            "name": "Homeserver CI/CD",
+            "repo": "homeserver-ci-cd",
+            "img": "/img/electron.png",
+            "subtitle": "Electron app for packaging and deploying my served applications to my server",
+            "tags": ["CI/CD", "Java", "Electron", "Node.js"],
+            "link": "",
+            "displayLink": "",
+            "githubUrl": "https://github.com/will-barnard/homeserver-ci-cd",
+            "description": ""
+        },
+        {   
+            "id": 2,
             "name": "Bone To The Bad",
             "repo": "bone-to-the-bad",
             "img": "/img/bone-to-the-bad.jpeg",
@@ -59,11 +83,11 @@
             "tags": ["JavaScript", "HTML", "CSS", "Java", "Audio"],
             "link": "http://www.bonetothebad.com",
             "displayLink": "bonetothebad",
-            "githubUrl": "github",
+            "githubUrl": "https://github.com/will-barnard/bone-to-the-bad",
             "description": ""
         },
         {   
-            "id": 1,
+            "id": 3,
             "name": "Cash Critters",
             "repo": "cash-critters",
             "img": "/img/cash-critters.png",
@@ -71,11 +95,11 @@
             "tags": ["Vue", "Game"],
             "link": "http://critters.will-barnard.com",
             "displayLink": "cash‑critters",
-            "githubUrl": "github",
+            "githubUrl": "https://github.com/will-barnard/cash-critters",
             "description": ""
         },
         {   
-            "id": 2,
+            "id": 4,
             "name": "Antonio Energy Drink",
             "repo": "antonio-energy-drink",
             "img": "/img/antonio.jpeg",
