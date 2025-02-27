@@ -1,6 +1,6 @@
 <template>
     <div class="body-container">
-        <div>
+        <div class="button-container">
             <h2 class="about-button" @click="show = !show">{{show ? "Hide" : "About Me"}}</h2>
         </div>
         <Transition>
@@ -45,11 +45,11 @@ export default {
         color: #00bd7e;
         border: 2px solid;
         border-radius: 10px;
-        padding: 0px;
+        padding: 10px 20px;
         margin: 0px;
         margin-bottom: 10px;
         cursor: pointer;
-        width: 100%;
+        width: auto;
     }
     .show-button {
         border-radius: 10px;
@@ -63,5 +63,9 @@ export default {
     .about-me p {
         margin-bottom: 10px;
         text-align: left;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
     }
 </style>
