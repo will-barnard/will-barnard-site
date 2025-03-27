@@ -13,10 +13,6 @@
             <div v-if="project.link">
                 <a :href="project.link" target="_blank">🔗&nbsp;{{project.displayLink}}</a>
             </div>
-            <div class="link-divider" v-if="project.link">
-                <p>&nbsp;&nbsp;||&nbsp;&nbsp;</p>
-            </div>
-           
             <div>
                 <a :href="project.githubUrl" target="_blank">🔗&nbsp;Github&nbsp;Repository</a>
             </div>
@@ -87,6 +83,7 @@ export default {
     }
     .links {
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
     .show {

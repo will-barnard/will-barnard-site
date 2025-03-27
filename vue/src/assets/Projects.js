@@ -2,18 +2,6 @@ export default {
     majorProjects: [
         {   
             id: 0,
-            name: "Train Tracker",
-            repo: "train-tracker-cta",
-            img: "/img/train-tracker2.jpeg",
-            subtitle: "Data-based web app for tracking Chicago CTA trains and analyzing prediction accuracy",
-            tags: ["Data Analytics", "Vue", "Java", "Spring Boot", "PostgreSQL"],
-            link: "http://train-tracker.will-barnard.com",
-            displayLink: "train‑tracker",
-            githubUrl: "https://github.com/will-barnard/train-tracker-cta",
-            description: ""
-        },
-        {   
-            id: 1,
             name: "Kitchen Jam",
             repo: "kitchen-jam",
             img: "/img/kitchen-jam.jpeg",
@@ -24,6 +12,19 @@ export default {
             githubUrl: "https://github.com/will-barnard/kitchen-jam",
             description: ""
         },
+        {   
+            id: 1,
+            name: "Train Tracker",
+            repo: "train-tracker-cta",
+            img: "/img/train-tracker2.jpeg",
+            subtitle: "Data-based web app for tracking Chicago CTA trains and analyzing prediction accuracy",
+            tags: ["Data Analytics", "Vue", "Java", "Spring Boot", "PostgreSQL"],
+            link: "http://train-tracker.will-barnard.com",
+            displayLink: "train‑tracker",
+            githubUrl: "https://github.com/will-barnard/train-tracker-cta",
+            description: ""
+        },
+        
         {   
             id: 2,
             name: "Super Ingestionator",
@@ -74,8 +75,20 @@ export default {
             githubUrl: "https://github.com/will-barnard/homeserver-ci-cd",
             description: ""
         },
-        {   
+        {
             id: 2,
+            name: "Audio Player",
+            repo: "audio-player",
+            img: "/img/audio.jpeg",
+            subtitle: "Lightweight app with simple instructions for setting up and hosting audio albums online",
+            tags: ["Vue", "Audio"],
+            link: "",
+            displayLink: "",
+            githubUrl: "https://github.com/will-barnard/audio-player",
+            description: ""
+        },
+        {   
+            id: 3,
             name: "Bone To The Bad",
             repo: "bone-to-the-bad",
             img: "/img/bone-to-the-bad.jpeg",
@@ -87,7 +100,7 @@ export default {
             description: ""
         },
         {   
-            id: 3,
+            id: 4,
             name: "Interactive Periodic Table",
             repo: "interactive-periodic-table",
             img: "/img/periodic-table.png",
@@ -99,11 +112,11 @@ export default {
             description: ""
         },
         {   
-            id: 4,
+            id: 5,
             name: "Cash Critters",
             repo: "cash-critters",
             img: "/img/cash-critters.png",
-            subtitle: "Pet simulator game made with Vue employing unidirectional frontend data store with Vuex",
+            subtitle: "Work-in-progress pet simulator game made with Vue employing unidirectional frontend data store with Vuex",
             tags: ["Vue", "Game"],
             link: "http://critters.will-barnard.com",
             displayLink: "cash‑critters",
@@ -111,7 +124,7 @@ export default {
             description: ""
         },
         {   
-            id: 5,
+            id: 6,
             name: "Antonio Energy Drink",
             repo: "antonio-energy-drink",
             img: "/img/antonio.jpeg",
